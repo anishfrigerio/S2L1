@@ -244,10 +244,9 @@ footer a {
 @media print and (min-width: 400px) {
    body{
     background-image: none;
+    margin: 0;
    }
-   header{
-    visibility: hidden;
+   header, iframe, .toTop, .social, section, aside{
+    display: none;
    }
-    iframe{
-        visibility: hidden;
 }
