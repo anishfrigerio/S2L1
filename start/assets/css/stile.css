@@ -241,6 +241,18 @@ footer a {
         margin: 0 auto;
     }
 }
+@media screen and (min-width: 770px) {
+    aside div{
+        display: inline-block;
+        width: 33%;
+    }
+    section,h1{
+        text-align: center;
+    }
+    article p, ol, ul, h2{
+        text-align: center;
+    }    
+}
 @media print and (min-width: 400px) {
    body{
     background-image: none;
